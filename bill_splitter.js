@@ -7,3 +7,10 @@ console.log(tip);
 total = x + tip;
 console.log(total);
 console.log(`The bill was $${x}, the tip was $${tip}, and the total value is $${total}`);
+
+// Task 3 Create and test calculateTip function
+bill = 100; // had to make a new function to put bill amount
+function calculateTip(bill) {
+     return bill = x >= 50 && x <= 300 ? x * 0.15 : x * 0.2;
+}
+console.log(calculateTip(bill));
